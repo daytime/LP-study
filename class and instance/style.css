@@ -1,0 +1,23 @@
+.accordion {
+    width: 600px;
+    margin: 80px auto auto auto;
+}
+
+
+
+.accordion-trigger {
+    margin: 0px;
+    padding: 10px;
+    display: block;
+    background: rgb(63, 81, 171);
+    color: #FFF;
+    border-top: 1px solid #FFF;
+
+}
+.accordion-contents {
+    padding: 10px;
+    background: rgba(76, 177, 8, 0.666);
+    border: 1px solid #ccc;
+    display: none;
+    margin-bottom: 10px;
+}

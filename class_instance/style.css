@@ -12,12 +12,16 @@
     background: rgb(63, 81, 171);
     color: #FFF;
     border-top: 1px solid #FFF;
+    margin-top: 20px;
 
+    border-radius: 10px 10px 10px 10px;
 }
 .accordion-contents {
 padding: 10px;
     background: rgba(76, 177, 8, 0.666);
     border: 1px solid #ccc;
     display: none;
-    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
 }

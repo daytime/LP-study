@@ -32,7 +32,7 @@
   }
   const fuckingAccordion = new Accordion({
     hookName: "#js-faq",
-    tagName: "p",
+    tagName: "a",
   });
 
   //   const $elm = document.querySelector("#js-accordion");

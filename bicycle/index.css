@@ -1,11 +1,22 @@
+.header {
+
+   background: red;
+}
+.site-title{
+width: 120px;
+   height: 10px;
+line-height: 1px;
+padding: 10px 0;
+
+}
 .profile {
   background: #000;
   color: #fff;
-  bold
 }
-.contents{
-   /* display: flex; */
+.menu{
+   display: flex;
+
+flex-direction: row;
 }
 .items{
-   /* display: flex; */
 }

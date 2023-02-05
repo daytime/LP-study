@@ -1,22 +1,27 @@
-.header {
-
-   background: red;
+.site-title {
+  width: 120px;
+  color: #852a2a;
+  font: bold;
+  font-size: 15px;
 }
-.site-title{
-width: 120px;
-   height: 10px;
-line-height: 1px;
-padding: 10px 0;
-
+img {
+  max-width: 100%;
 }
-.profile {
-  background: #000;
-  color: #fff;
+.test {
+  max-width: 100%;
+  width: 120px;
 }
-.menu{
-   display: flex;
-
-flex-direction: row;
+.container{
+  list-style: none;
+  display: inline-flex;
+  margin-right: 30px;
+  padding-left: 0px;
+  flex-direction: row;
 }
-.items{
+li{
+padding: 0px 10px;
+}
+a{
+text-decoration: none;
+  color: #000;
 }

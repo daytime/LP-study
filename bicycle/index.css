@@ -1,8 +1,8 @@
 .site-title {
   width: 120px;
   color: #852a2a;
-  font: bold;
-  font-size: 15px;
+  /* font: bold; */
+  font-size: 20px;
 }
 img {
   max-width: 100%;
@@ -24,4 +24,21 @@ padding: 0px 10px;
 a{
 text-decoration: none;
   color: #000;
+}
+.item{
+  text-align:center;
+  font-size:50px;
+  font:bold;
+ /* text-decoration: underline;  */
+ border-bottom: solid 1px black;
+}
+
+
+
+
+
+
+.footer{
+  font-size: 0.5rem;
+  text-align: center
 }

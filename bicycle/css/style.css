@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 .site-title {
   width: 120px;
   color: #852a2a;
@@ -6,12 +9,13 @@
   display: flex;
 }
 
-/* #header {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
+#header {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-content: center; */
   margin: 0 auto;
 }
+/*
 #header ul{
 display: flex;
 padding: 10px 0
@@ -49,7 +53,7 @@ a {
 }
 .item {
   text-align: center;
-  font-size: 50px;
+  /* font-size: 50px; */
   font: bold;
   /* text-decoration: underline;  */
   border-bottom: solid 1px black;

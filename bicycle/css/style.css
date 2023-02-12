@@ -76,7 +76,6 @@ a {
 }
 .container1 {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 .profImage {
@@ -84,16 +83,15 @@ a {
   width: 100px;
   height: 100px;
   margin-right: 40px;
+  border-radius: 50%;
+  /* background-image: url("./img/about.jpg"); */
 }
 .prof {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
 }
 .about {
   /* display: flex; */
-  width: 403px;
+  width: 450px;
   margin-bottom: 10px;
 }
 .name {

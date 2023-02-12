@@ -14,9 +14,9 @@
   align-content: center;
   /* margin: 0 auto; */
 }
-#header ul{
-display: flex;
-padding: 10px 0
+#header ul {
+  display: flex;
+  padding: 10px 0;
 }
 #header li {
   margin-left: 30px;
@@ -46,13 +46,13 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
- .test {
+.test {
   width: 800px;
   height: 40px;
   /* margin: 10px; */
   padding: 10px;
   justify-content: center;
- }
+}
 li {
   padding: 0px 10px;
   list-style: none;
@@ -68,18 +68,44 @@ a {
   /* text-decoration: underline;  */
   border-bottom: solid 1px black;
 }
-.prof {
-  width: 100px;
-  height: 100px;
-}
 .nav {
   text-align: center;
-  font: bold;
+  font-weight: bold;
   font-size: 2rem;
+  margin: 70px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profImage {
+  /* 写真を丸く切り取る */
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+.prof {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.about {
+  /* display: flex; */
+  width: 403px;
+  margin-bottom: 10px;
+}
+.name {
+  font-weight: bold;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
 }
 .visual {
-  width:270px;
-  height:180px;
+  width: 270px;
+  height: 180px;
 }
 .footer {
   font-size: 0.5rem;

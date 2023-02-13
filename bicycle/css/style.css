@@ -34,6 +34,7 @@ header {
   max-width: 100%;
   width: 1500px;
   height: 600px;
+  margin-bottom: 100px;
 }
 .container {
   font-size: 1rem;
@@ -63,16 +64,18 @@ a {
 }
 .item {
   text-align: center;
-  /* font-size: 50px; */
   font-weight: bold;
-  /* text-decoration: underline;  */
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px #383e45;
 }
 .nav {
   text-align: center;
+  margin: 0 auto;
+  /* display: block; */
   font-weight: bold;
   font-size: 2rem;
-  margin: 70px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+  width: 120px;
 }
 .container1 {
   display: flex;
@@ -84,6 +87,8 @@ a {
   height: 100px;
   margin-right: 40px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: 0px 0px;
   /* background-image: url("./img/about.jpg"); */
 }
 .prof {
@@ -94,16 +99,15 @@ a {
   width: 450px;
   margin-bottom: 10px;
 }
-.name {
-  font-weight: bold;
-}
 .container2 {
   display: flex;
   flex-direction: column;
 }
-.visual {
-  width: 270px;
-  height: 50px;
+.name {
+  font-weight: bold;
+}
+.content {
+  margin-bottom: 100px;
 }
 .container3 {
   display: flex;
@@ -114,20 +118,24 @@ a {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  margin-bottom: 100px;
   /* align-items: center; */
 }
 .visual {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
+  /* margin: 10px; */
 }
 .container4>img {
   width: 270px;
-  height: 180px;
+  height: 200px;
 }
 .footer {
   font-size: 0.5rem;
   text-align: center;
+  margin: 10px;
 }
 .item-title {
   font-weight: bold;

@@ -128,7 +128,7 @@ a {
   margin-top: 10px;
   /* margin: 10px; */
 }
-.container4>img {
+.container4 > img {
   width: 270px;
   height: 200px;
 }

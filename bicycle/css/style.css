@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  /* margin: 0 auto; */
 }
 #header ul {
   display: flex;
@@ -26,6 +25,13 @@
 }
 header {
   display: flex;
+}
+.test {
+  width: 600px;
+  height: 40px;
+  /* margin: 10px; */
+  padding: 10px;
+  justify-content: center;
 }
 
 .mainVisual {
@@ -46,13 +52,6 @@ header {
   /* justify-content: space-around; */
   justify-content: flex-end;
   align-items: center;
-}
-.test {
-  width: 800px;
-  height: 40px;
-  /* margin: 10px; */
-  padding: 10px;
-  justify-content: center;
 }
 li {
   padding: 0px 10px;

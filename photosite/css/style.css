@@ -1,3 +1,12 @@
 .test {
     font-weight: bold;
 }
+container {
+    width: 640px;
+    margin: 200px;
+}
+header>img {
+opacity: 0.9;
+width: 150px;
+height: 40px;
+}

@@ -1,12 +1,25 @@
 .test {
-    font-weight: bold;
+  font-weight: bold;
+  background: pink;
 }
-container {
-    width: 640px;
-    margin: 200px;
+.container {
+  width: 1000px;
+  margin: 0 auto;
 }
-header>img {
-opacity: 0.9;
-width: 150px;
-height: 40px;
+/* header>img { */
+img {
+  max-width: 100;
+  opacity: 0.9;
+  width: 150px;
+  height: 40px;
+}
+#header {
+  margin-top: 60px;
+}
+#header .site-title {
+  width: 160px;
+  margin-bottom: 15px;
+}
+.main1 {
+width: 640px;
 }

@@ -5,7 +5,7 @@
 
 
 
-.index {
+#index {
   color: red;
   margin-left: 200px;
   display: flex;
@@ -13,4 +13,21 @@
 }
 
 .h2 {
+}
+
+.img {
+
+  width: 300px;
+}
+
+#detail {
+  color: red;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
 }

@@ -30,7 +30,6 @@
   flex-direction: row;
 }
 
-#detail .content dl {
-  border-top: solid 1px #dedede;
-  border-bottom: solid 1px #dedede;
+dl {
+  margin: 0 1 0 1;
 }

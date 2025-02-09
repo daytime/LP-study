@@ -3,11 +3,11 @@
 }
 
 #index {
-  color: green;
+  color: red;
   margin-left: 200px;
   display: flex;
   flex-direction: column;
-mt
+}
 
 .img {
   width: 300px;
@@ -30,7 +30,7 @@ mt
   flex-direction: row;
 }
 
-#detail .content dl {
-  border-top: solid 1px #dedede;
-  border-bottom: solid 1px #dedede;
+dl {
+  border-top: solid 1px;
+  border-bottom: solid 100px;
 }
